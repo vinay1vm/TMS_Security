@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="12dp"
+    app:cardCornerRadius="12dp"
+    android:id="@+id/Vview">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Visitor Id:  "
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:id="@+id/vid"
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+
+                    android:textSize="24dp"
+                    tools:ignore="DuplicateIds" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name:        "
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:id="@+id/vname"
+                    android:layout_width="224dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+
+                    android:textSize="24dp"
+                    tools:ignore="DuplicateIds" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Door no:     "
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:id="@+id/Dno"
+                    android:layout_width="226dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+
+                    android:textSize="24dp"
+                    tools:ignore="DuplicateIds" />
+            </LinearLayout>
+        </LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="348dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="0dp"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Time:         "-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="24dp" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/txttime"-->
+<!--                    android:layout_width="228dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:textColor="@color/black"-->
+
+<!--                    android:textSize="24dp"-->
+<!--                    tools:ignore="DuplicateIds" />-->
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
